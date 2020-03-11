@@ -13,3 +13,31 @@ Finally one can retrieve a json object with information about the money that sho
 UML Class diagram is added below which provides information about various classes.
 
 ![Payroll System for Staff Member](Payroll.jpg)
+
+
+StaffMember - will provide list of staff members
+Payroll – will provide details about payroll for a staff members
+HourlySalary – will provide the hourly payroll for a staff members
+MonthlySalary – will provide the monthly payroll for a staff members
+
+StaffMember is associated with payroll class
+Payroll class has two types HourlySalary and MonthlySalary
+Payroll has salary type which determines hourly or monthly salary.
+
+
+Requests and Responses for Payroll Server :
+
+Get Request to get all default payroll values :
+http://localhost:8080/payroll/webapi/mypayroll
+
+Get request to list all staff members :
+http://localhost:8080/payroll/webapi/staffmembers
+
+Get request to sort all staff members by bubble sort :
+http://localhost:8080/payroll/webapi/staffmembers/sortstaff
+
+Get Request for retreiving payroll for employee id =1 for date between 2020-02-22 and 2020-02-28
+http://localhost:8080/payroll/webapi/mypayroll/1?from=2020-02-22&to=2020-02-28
+
+Get request to sort all payrolls by bubble sort based on employee name :
+http://localhost:8080/payroll/webapi/mypayroll/sortpayroll
