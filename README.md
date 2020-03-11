@@ -12,4 +12,4 @@ Finally one can retrieve a json object with information about the money that sho
 
 UML Class diagram is added below which provides information about various classes.
 
-![Payroll System for Staff Member](/home/pradeep/Downloads/payroll.jpg)
+![Payroll System for Staff Member](Payroll.jpg)
