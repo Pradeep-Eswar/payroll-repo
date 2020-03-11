@@ -33,7 +33,7 @@ http://localhost:8080/payroll/webapi/mypayroll
 Get request to list all staff members :
 http://localhost:8080/payroll/webapi/staffmembers
 
-Get request to sort all staff members by bubble sort :
+Get request to sort all staff members:
 http://localhost:8080/payroll/webapi/staffmembers/sortstaff
 
 Get Request for retreiving payroll for employee id =1 for date between 2020-02-22 and 2020-02-28
